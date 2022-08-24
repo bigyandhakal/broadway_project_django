@@ -1,0 +1,197 @@
+Job Portal
+-----------
+Organization
+    name
+    address
+    category
+    email
+    phone
+    details
+    status
+    logo
+
+Job
+    title
+    type
+    category
+    level
+    description
+    requirement
+    experience
+    skills
+    responsibilities
+    no_of_vacancy
+    salary
+    deadline
+    organization
+    status
+
+User
+    name
+    address
+    email
+    mobile
+    username
+    password
+    type(admin, recruiter, staff, jobseeker)
+    status
+
+JobSeeker
+    objective
+    qualification
+    training
+    skills
+    experience
+    cv
+    image
+
+Application
+    apply_date
+    user_id
+    job_id
+    status(applied, under review, selected, rejected, waiting)
+
+Information 
+    title
+    details
+    status
+
+
+E-Commerce
+-----------
+Product
+    id
+    name
+    mfd
+    price
+    details
+
+User
+    name
+    address
+    email
+    mobile
+    username
+    password
+
+Wishlist/ Favourite
+    products
+Cart
+    product id
+    purchase
+    delete
+Order
+    user id
+    product id
+    date
+
+
+Hotel Booking System
+---------------------
+User
+    name
+    address
+    email
+    mobile
+    username
+    password
+    type(admin, staff, customer)
+
+Hotel
+    name
+    address
+    contact
+    description
+Room
+    number
+    type
+    description
+
+Booking
+    customer id
+    room id
+    date 
+
+
+Movie Ticket Booking System
+----------------------------
+User
+    name
+    address
+    email
+    mobile
+    username
+    password
+    type(admin, staff, customer)
+
+Cinema Hall
+    name
+    address
+
+Screen
+    hall id
+    screen number
+Movie
+    name
+    type
+    screen id
+    hall id 
+
+ShowTime
+    time 
+    movie id
+
+Booking
+    customer id
+    movie id
+    hall id
+    show time id
+    date
+
+Clinic Management System
+-------------------------
+User
+    name
+    address
+    email
+    mobile
+    username
+    password
+    type(admin, staff, Patient, Doctor)
+
+Patient
+    name
+    address
+    email
+    mobile
+    
+Doctor
+    name
+    address
+    email
+    mobile
+    Speciality
+
+Report
+    body weight
+    height
+    Disease
+    Symptoms
+    patient id
+    doctor id
+    details
+Test
+    name
+    type
+    description
+    cost
+
+About us
+    introduction
+    missions and goals
+    functions
+    contact
+
+Information 
+    title
+    details
