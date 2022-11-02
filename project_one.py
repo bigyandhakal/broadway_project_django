@@ -79,6 +79,9 @@ class Transaction:
         self.btn_d = Button(self.root1, text="Deposite", command=lambda: self.transaction('d'))
         self.btn_d.grid(row=4, column=0, padx=20, pady=10)
 
+        self.btn_l = Button(self.root1, text="Exit", command=lambda: self.root1.destroy())
+        self.btn_l.grid(row=5, column=0, padx=20, pady=10)
+
         self.root1.mainloop()
 
     def transaction(self, type):
